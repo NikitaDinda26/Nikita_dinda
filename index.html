@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Emergency Alert</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🚨 Silent Emergency Alert System</h1>
+
+<div id="login">
+  <h2>Login</h2>
+  <input id="u" placeholder="Username">
+  <input id="p" type="password" placeholder="Password">
+  <button onclick="login()">Login</button>
+</div>
+
+<div id="dash" style="display:none;">
+  <h2>Dashboard</h2>
+  <button onclick="alert('SOS SENT 🚨')">SEND SOS</button>
+  <button onclick="logout()">Logout</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
